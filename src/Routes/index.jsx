@@ -6,13 +6,13 @@ import Complete from "../Pages/Complete";
 const Routes = () => {
   return(
     <Switch>
-      <Route path="/">
+      <Route exact path="/">
         <LandingPage />
       </Route>
-      <Route exact path="/form_reference">
+      <Route path="/formreference">
         <FormReference />
       </Route>
-      <Route exact path="/complete">
+      <Route path="/complete">
         <Complete />
       </Route>
     </Switch>
