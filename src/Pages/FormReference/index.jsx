@@ -4,8 +4,8 @@ const FormReference = () => {
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeuR5hlCjWw0XT5oqxoNzDsHrTiy8nVUHAgyTMXxrsZ3ETujQ/formResponse">
       <div id="pg00">
         <h1>
-          Que bom que você estara com a gente nessa, Já marque o dia 16 de Junho
-          no seu calendario e preencha esse formulario digital!
+          Que bom que você estará com a gente nessa. Já marque o dia 16 de Junho
+          no seu calendário e preencha esse formulário digital!
         </h1>
         <button>
           <a href="#pg01">Vamos nessa</a>
@@ -13,7 +13,7 @@ const FormReference = () => {
       </div>
       <div id="pg01">
         <h1>
-          Gostariamos de te conhecer melhor, você pode nos dizer como se chama?
+          Você pode nos dizer como se chama?
         </h1>
         <div className="name">
           <input
@@ -36,8 +36,8 @@ const FormReference = () => {
       </div>
       <div id="pg02">
         <h1>
-          Que bom te conhecer, mas agora me diz, como voce se define segundo as
-          opçoes abaixo.
+          Que bom te conhecer!! Mas agora me diz, como você se define segundo as
+          opçoes abaixo:
         </h1>
         <select name="entry.1359085191" required>
           <option value="Evangélico" selected>
@@ -64,7 +64,7 @@ const FormReference = () => {
         </button>
       </div>
       <div id="pg04">
-        <h1>Em quais Horarios você estara com a gente ?</h1>
+        <h1>Em quais horários você estara com a gente?</h1>
         <div className="time">
           <label>
             <input
