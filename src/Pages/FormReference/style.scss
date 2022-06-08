@@ -65,6 +65,7 @@ form {
         font-size: 1.2rem;
         border: none;
         border-bottom: 1px inset black;
+        outline: none;
       }
     }
   }
@@ -82,16 +83,19 @@ form {
       width: 268px;
       padding: 5px;
       line-height: 1;
-      border: 0;
+      border: 1px solid rgb(201, 201, 201);
       border-radius: 0;
       height: 34px;
       -webkit-appearance: none;
+      outline: none;
+      border-radius: 5px;
     }
     input {
       width: 40vw;
       font-size: 1.2rem;
       border: none;
       border-bottom: 1px inset black;
+      outline: none;
     }
   }
   #pg03 {
@@ -107,6 +111,7 @@ form {
       font-size: 1.2rem;
       border: none;
       border-bottom: 1px inset black;
+      outline: none;
     }
   }
   #pg04 {
@@ -163,6 +168,7 @@ form {
         font-size: 1.2rem;
         border: none;
         border-bottom: 1px inset black;
+        outline: none;
       }
     }
   }
