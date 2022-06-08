@@ -120,21 +120,20 @@ form {
     .time {
       display: flex;
       justify-content: space-around;
-      width: 85%;
+      width: 95%;
       font-size: 1.3rem;
       font-weight: 600;
-      color: #dfdfdf;
+      color: #f7f7f7;
       label {
-          span{
-
-              background-color: rgb(168, 168, 168);
-              border-radius: 50px;
-              padding: 3px 11px;
-              cursor: pointer;
-          }
-          input{
-              display: none;
-          }
+        span {
+          background-color: rgb(168, 168, 168);
+          border-radius: 50px;
+          padding: 3px 11px;
+          cursor: pointer;
+        }
+        input {
+          display: none;
+        }
         input:checked + span {
           background-color: rgb(22, 22, 22);
         }
@@ -149,23 +148,22 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    span{
-        color: rgb(212, 58, 58);
+    span {
+      color: rgb(212, 58, 58);
     }
     .contact {
-        display: flex;
-        flex-direction: row;
-        column-gap: 10vw;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        input {
-          width: 40vw;
-          font-size: 1.2rem;
-          border: none;
-          border-bottom: 1px inset black;
-        }
+      display: flex;
+      flex-direction: row;
+      column-gap: 10vw;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      input {
+        width: 40vw;
+        font-size: 1.2rem;
+        border: none;
+        border-bottom: 1px inset black;
       }
-
+    }
   }
 }
