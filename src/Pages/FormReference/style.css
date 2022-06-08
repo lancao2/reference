@@ -208,7 +208,7 @@ form #pg04 .time {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 70%;
+  width: 85%;
   font-size: 1.3rem;
   font-weight: 600;
   color: #dfdfdf;
