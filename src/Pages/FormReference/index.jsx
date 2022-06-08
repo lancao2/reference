@@ -18,7 +18,7 @@ const FormReference = () => {
         <div className="name">
           <input
             type="text"
-            name="eentry.1891826285"
+            name="entry.1891826285"
             placeholder="Nome"
             required
           />
@@ -41,10 +41,10 @@ const FormReference = () => {
         </h1>
         <select name="entry.1359085191" required>
           <option value="Evangélico" selected>
-            Evangelico
+            Evangélico
           </option>
           <option value="Afastado">Afastado</option>
-          <option value="Não evangélico">Não evangelico</option>
+          <option value="Não evangélico">Não evangélico</option>
         </select>
         <input type="text" name="entry.1115605065" placeholder="Igreja" />
         <button>
